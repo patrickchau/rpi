@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Patrick Chau\Documents\kicad\rpi-can\RPI_CAN.sch</source>
+    <date>4/14/2019 4:35:45 PM</date>
+    <tool>Eeschema (5.0.2)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RPI_CAN.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>RPI_CAN:AXIAL-0.3EZ</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="100OHM-HORIZ_KIT-1_4W-1%" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>E6C7F8B8</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>RPI_CAN:AXIAL-0.3EZ</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="100OHM-HORIZ_KIT-1_4W-1%" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>37FF1F05</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>PESD1CAN</value>
+      <footprint>RPI_CAN:SOT23-3</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="PESD1CAN" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>C78C3FBD</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz</value>
+      <footprint>RPI_CAN:HC49US</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="CRYSTAL-16MHZPTH-HC49US" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>031B2028</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP2562DIL08_2</value>
+      <footprint>RPI_CAN:DIL08</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="MCP2562DIL08_2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>94FABF20</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>120</value>
+      <footprint>RPI_CAN:AXIAL-0.3</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="RESISTORAXIAL-0.3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>93EDAD52</tstamp>
+    </comp>
+    <comp ref="JUMP1">
+      <value>2</value>
+      <footprint>RPI_CAN:1X02</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="CONN_02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>774C1134</tstamp>
+    </comp>
+    <comp ref="U$1">
+      <value>RPI-ZERO</value>
+      <footprint>RPI_CAN:RASP_PI_ZERO_BOARD_FULL</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="RPI-ZERO" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>89E33A62</tstamp>
+    </comp>
+    <comp ref="CAN_CONT1">
+      <value>MCP2515P</value>
+      <footprint>RPI_CAN:DIL18</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="MCP2515P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>DC7623FC</tstamp>
+    </comp>
+    <comp ref="GND/TRIM/5V1">
+      <value>1</value>
+      <footprint>RPI_CAN:1X03</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="CONN_03" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>574EF8FD</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1472ohms</value>
+      <footprint>RPI_CAN:0204_5</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="R-US_0204_5" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0DA467EC</tstamp>
+    </comp>
+    <comp ref="12V/ON1">
+      <value>1</value>
+      <footprint>RPI_CAN:1X02</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="CONN_02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>788E3DBB</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>1</value>
+      <footprint>RPI_CAN:SCREWTERMINAL-3.5MM-4</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="CONN_04SCREW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1348FF5C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22pF</value>
+      <footprint>RPI_CAN:CAP-PTH-SMALL-KIT</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="CAPKIT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7EE2FFE3</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22pF</value>
+      <footprint>RPI_CAN:CAP-PTH-SMALL-KIT</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="CAPKIT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>D14D4BF0</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>RPI_CAN:CAP-PTH-SMALL-KIT</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="CAPKIT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2BF069D8</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>RPI_CAN:CAP-PTH-SMALL-KIT</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="CAPKIT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8451312A</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>RPI_CAN:CAP-PTH-SMALL-KIT</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="CAPKIT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>C15D389E</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>RPI_CAN:CAP-PTH-SMALL-KIT</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="CAPKIT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>A7E76009</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>560pF</value>
+      <footprint>RPI_CAN:CAP-PTH-SMALL-KIT</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="CAPKIT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA26073</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>560pF</value>
+      <footprint>RPI_CAN:CAP-PTH-SMALL-KIT</footprint>
+      <libsource lib="RPI_CAN-eagle-import" part="CAPKIT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1E18E96B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="RPI_CAN-eagle-import" part="100OHM-HORIZ_KIT-1_4W-1%">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100OHM-HORIZ_KIT-1_4W-1%</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="1" type="passive"/>
+        <pin num="P$2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RPI_CAN-eagle-import" part="CAPKIT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAPKIT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RPI_CAN-eagle-import" part="CONN_02">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RPI_CAN-eagle-import" part="CONN_03">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RPI_CAN-eagle-import" part="CONN_04SCREW">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_04SCREW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RPI_CAN-eagle-import" part="CRYSTAL-16MHZPTH-HC49US">
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">CRYSTAL-16MHZPTH-HC49US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RPI_CAN-eagle-import" part="MCP2515P">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP2515P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXCAN" type="output"/>
+        <pin num="2" name="RXCAN" type="input"/>
+        <pin num="3" name="CLKOUT" type="output"/>
+        <pin num="4" name="TX0RTS" type="input"/>
+        <pin num="5" name="TX1RTS" type="input"/>
+        <pin num="6" name="TX2RTS" type="input"/>
+        <pin num="7" name="OSC2" type="input"/>
+        <pin num="8" name="OSC1" type="input"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="RX1BF" type="output"/>
+        <pin num="11" name="RX0BF" type="output"/>
+        <pin num="12" name="INT" type="output"/>
+        <pin num="13" name="SCK" type="input"/>
+        <pin num="14" name="SI" type="input"/>
+        <pin num="15" name="SO" type="output"/>
+        <pin num="16" name="CS" type="input"/>
+        <pin num="17" name="RESET" type="input"/>
+        <pin num="18" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RPI_CAN-eagle-import" part="MCP2562DIL08_2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP2562DIL08_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="unspc"/>
+        <pin num="2" name="VSS" type="unspc"/>
+        <pin num="3" name="VDD" type="unspc"/>
+        <pin num="4" name="RXD" type="unspc"/>
+        <pin num="5" name="VIO" type="unspc"/>
+        <pin num="6" name="CANL" type="unspc"/>
+        <pin num="7" name="CANH" type="unspc"/>
+        <pin num="8" name="STBY" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="RPI_CAN-eagle-import" part="PESD1CAN">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PESD1CAN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+        <pin num="3" name="3" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="RPI_CAN-eagle-import" part="R-US_0204_5">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-US_0204_5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RPI_CAN-eagle-import" part="RESISTORAXIAL-0.3">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTORAXIAL-0.3</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="1" type="passive"/>
+        <pin num="P$2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RPI_CAN-eagle-import" part="RPI-ZERO">
+      <fields>
+        <field name="Value">RPI-ZERO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3@1" type="power_in"/>
+        <pin num="2" name="5V0@1" type="power_in"/>
+        <pin num="3" name="GPIO2/SDA1" type="unspc"/>
+        <pin num="4" name="5V0@2" type="power_in"/>
+        <pin num="5" name="GPIO3/SCL1" type="unspc"/>
+        <pin num="6" name="GND@8" type="power_in"/>
+        <pin num="7" name="GPIO4/GCKL" type="unspc"/>
+        <pin num="8" name="TXD0/GPIO14" type="unspc"/>
+        <pin num="9" name="GND@1" type="power_in"/>
+        <pin num="10" name="RXD0/GPIO15" type="unspc"/>
+        <pin num="11" name="GPIO17/GEN0" type="unspc"/>
+        <pin num="12" name="GPIO18" type="unspc"/>
+        <pin num="13" name="GPIO27/GEN2" type="unspc"/>
+        <pin num="14" name="GND@4" type="power_in"/>
+        <pin num="15" name="GPIO22/GEN3" type="unspc"/>
+        <pin num="16" name="GEN4/GPIO23" type="unspc"/>
+        <pin num="17" name="3V3@2" type="power_in"/>
+        <pin num="18" name="GEN5/GPIO24" type="unspc"/>
+        <pin num="19" name="GPIO10/MOSI" type="unspc"/>
+        <pin num="20" name="GND@5" type="power_in"/>
+        <pin num="21" name="GPIO9/MISO" type="unspc"/>
+        <pin num="22" name="GEN/6GPIO25" type="unspc"/>
+        <pin num="23" name="GPIO11/SCLK" type="unspc"/>
+        <pin num="24" name="~CE0~/GPIO8" type="unspc"/>
+        <pin num="25" name="GND@2" type="power_in"/>
+        <pin num="26" name="~CE~/GPIO7" type="unspc"/>
+        <pin num="27" name="ID_SD" type="unspc"/>
+        <pin num="28" name="ID_SC" type="unspc"/>
+        <pin num="29" name="GPIO5" type="unspc"/>
+        <pin num="30" name="GND@6" type="power_in"/>
+        <pin num="31" name="GPIO6" type="unspc"/>
+        <pin num="32" name="GPIO12" type="unspc"/>
+        <pin num="33" name="GPIO13" type="unspc"/>
+        <pin num="34" name="GND@7" type="power_in"/>
+        <pin num="35" name="GPIO19" type="unspc"/>
+        <pin num="36" name="GPIO16" type="unspc"/>
+        <pin num="37" name="GPIO26" type="unspc"/>
+        <pin num="38" name="GPIO20" type="unspc"/>
+        <pin num="39" name="GND@3" type="power_in"/>
+        <pin num="40" name="GPIO21" type="unspc"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="RPI_CAN-eagle-import">
+      <uri>C:\Users\Patrick Chau\Documents\kicad\rpi-can/RPI_CAN-eagle-import.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U$1-Pad10)">
+      <node ref="U$1" pin="10"/>
+    </net>
+    <net code="2" name="Net-(U$1-Pad11)">
+      <node ref="U$1" pin="11"/>
+    </net>
+    <net code="3" name="Net-(U$1-Pad12)">
+      <node ref="U$1" pin="12"/>
+    </net>
+    <net code="4" name="Net-(U$1-Pad13)">
+      <node ref="U$1" pin="13"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C8" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="2"/>
+      <node ref="CAN_CONT1" pin="9"/>
+      <node ref="GND/TRIM/5V1" pin="3"/>
+      <node ref="U$1" pin="9"/>
+      <node ref="U$1" pin="6"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U$1" pin="39"/>
+      <node ref="U$1" pin="14"/>
+      <node ref="U$1" pin="20"/>
+      <node ref="U$1" pin="25"/>
+      <node ref="U$1" pin="30"/>
+      <node ref="U$1" pin="34"/>
+      <node ref="D1" pin="3"/>
+    </net>
+    <net code="6" name="Net-(U$1-Pad15)">
+      <node ref="U$1" pin="15"/>
+    </net>
+    <net code="7" name="Net-(U$1-Pad16)">
+      <node ref="U$1" pin="16"/>
+    </net>
+    <net code="8" name="3V3">
+      <node ref="U1" pin="5"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U$1" pin="17"/>
+      <node ref="U$1" pin="1"/>
+    </net>
+    <net code="9" name="Net-(U$1-Pad18)">
+      <node ref="U$1" pin="18"/>
+    </net>
+    <net code="10" name="Net-(JUMP1-Pad2)">
+      <node ref="JUMP1" pin="2"/>
+      <node ref="R3" pin="P$2"/>
+    </net>
+    <net code="11" name="Net-(U$1-Pad22)">
+      <node ref="U$1" pin="22"/>
+    </net>
+    <net code="12" name="Net-(U$1-Pad26)">
+      <node ref="U$1" pin="26"/>
+    </net>
+    <net code="13" name="Net-(U$1-Pad27)">
+      <node ref="U$1" pin="27"/>
+    </net>
+    <net code="14" name="Net-(U$1-Pad28)">
+      <node ref="U$1" pin="28"/>
+    </net>
+    <net code="15" name="Net-(U$1-Pad29)">
+      <node ref="U$1" pin="29"/>
+    </net>
+    <net code="16" name="Net-(U$1-Pad3)">
+      <node ref="U$1" pin="3"/>
+    </net>
+    <net code="17" name="Net-(U$1-Pad31)">
+      <node ref="U$1" pin="31"/>
+    </net>
+    <net code="18" name="Net-(U$1-Pad32)">
+      <node ref="U$1" pin="32"/>
+    </net>
+    <net code="19" name="Net-(U$1-Pad33)">
+      <node ref="U$1" pin="33"/>
+    </net>
+    <net code="20" name="Net-(U$1-Pad35)">
+      <node ref="U$1" pin="35"/>
+    </net>
+    <net code="21" name="/12V">
+      <node ref="J1" pin="1"/>
+      <node ref="12V/ON1" pin="2"/>
+    </net>
+    <net code="22" name="/TRIM">
+      <node ref="R4" pin="1"/>
+      <node ref="GND/TRIM/5V1" pin="2"/>
+    </net>
+    <net code="23" name="/CANTXD">
+      <node ref="U1" pin="1"/>
+      <node ref="CAN_CONT1" pin="1"/>
+    </net>
+    <net code="24" name="/CANRXD">
+      <node ref="CAN_CONT1" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="25" name="Net-(12V/ON1-Pad1)">
+      <node ref="12V/ON1" pin="1"/>
+    </net>
+    <net code="26" name="5V">
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U$1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C8" pin="1"/>
+      <node ref="CAN_CONT1" pin="18"/>
+      <node ref="U$1" pin="4"/>
+      <node ref="GND/TRIM/5V1" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C2-Pad1)">
+      <node ref="R1" pin="P$1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="28" name="Net-(C3-Pad1)">
+      <node ref="R2" pin="P$1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="29" name="/CAN_C_SI">
+      <node ref="CAN_CONT1" pin="14"/>
+      <node ref="U$1" pin="19"/>
+    </net>
+    <net code="30" name="Net-(U$1-Pad37)">
+      <node ref="U$1" pin="37"/>
+    </net>
+    <net code="31" name="Net-(U$1-Pad38)">
+      <node ref="U$1" pin="38"/>
+    </net>
+    <net code="32" name="Net-(U$1-Pad40)">
+      <node ref="U$1" pin="40"/>
+    </net>
+    <net code="33" name="Net-(U$1-Pad5)">
+      <node ref="U$1" pin="5"/>
+    </net>
+    <net code="34" name="Net-(U$1-Pad7)">
+      <node ref="U$1" pin="7"/>
+    </net>
+    <net code="35" name="Net-(U$1-Pad8)">
+      <node ref="U$1" pin="8"/>
+    </net>
+    <net code="36" name="Net-(CAN_CONT1-Pad10)">
+      <node ref="CAN_CONT1" pin="10"/>
+    </net>
+    <net code="37" name="Net-(CAN_CONT1-Pad11)">
+      <node ref="CAN_CONT1" pin="11"/>
+    </net>
+    <net code="38" name="/CAN_C_SCK">
+      <node ref="CAN_CONT1" pin="13"/>
+      <node ref="U$1" pin="23"/>
+    </net>
+    <net code="39" name="/CAN_C_SO">
+      <node ref="U$1" pin="21"/>
+      <node ref="CAN_CONT1" pin="15"/>
+    </net>
+    <net code="40" name="/CAN_C_CS">
+      <node ref="CAN_CONT1" pin="16"/>
+      <node ref="U$1" pin="24"/>
+    </net>
+    <net code="41" name="Net-(CAN_CONT1-Pad17)">
+      <node ref="CAN_CONT1" pin="17"/>
+    </net>
+    <net code="42" name="Net-(CAN_CONT1-Pad3)">
+      <node ref="CAN_CONT1" pin="3"/>
+    </net>
+    <net code="43" name="Net-(CAN_CONT1-Pad4)">
+      <node ref="CAN_CONT1" pin="4"/>
+    </net>
+    <net code="44" name="Net-(CAN_CONT1-Pad5)">
+      <node ref="CAN_CONT1" pin="5"/>
+    </net>
+    <net code="45" name="Net-(CAN_CONT1-Pad6)">
+      <node ref="CAN_CONT1" pin="6"/>
+    </net>
+    <net code="46" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="CAN_CONT1" pin="7"/>
+    </net>
+    <net code="47" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="CAN_CONT1" pin="8"/>
+    </net>
+    <net code="48" name="/CANH">
+      <node ref="R1" pin="P$2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R3" pin="P$1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="49" name="/CANL">
+      <node ref="R2" pin="P$2"/>
+      <node ref="JUMP1" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="U1" pin="6"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="50" name="/CAN_C_INT">
+      <node ref="U$1" pin="36"/>
+      <node ref="CAN_CONT1" pin="12"/>
+    </net>
+  </nets>
+</export>

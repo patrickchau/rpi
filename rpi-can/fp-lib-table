@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name RPI_CAN)(type KiCad)(uri "$(KIPRJMOD)/RPI_CAN.pretty")(options "")(descr ""))
+)
