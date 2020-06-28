@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name RPI_CAN-eagle-import)(type Legacy)(uri ${KIPRJMOD}/RPI_CAN-eagle-import.lib)(options "")(descr ""))
+)

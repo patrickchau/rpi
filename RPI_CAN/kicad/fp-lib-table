@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "RPI_CAN")(type Legacy)(uri "C:/Users/Patrick Chau/Documents/EAGLE/projects/RPI_CAN/kicad/RPI_CAN.mod")(options "")(descr ""))
+)

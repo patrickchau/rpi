@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by Cvpcb (2015-02-06 BZR 5410)-product   date = Mon 09 Feb 2015 04:12:04 PM PST
+
+BeginCmp
+TimeStamp = /5CB3BC8C;
+Reference = 12V/ON7;
+ValeurCmp = CONN_02;
+IdModule  = SPARKFUN-CONNECTORS_1X02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3BD54;
+Reference = C2;
+ValeurCmp = 0.1UF-KIT-EZ-50V-20%;
+IdModule  = SPARKFUN-CAPACITORS_CAP-PTH-SMALL-KIT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3BE1C;
+Reference = C3;
+ValeurCmp = 0.1UF-KIT-EZ-50V-20%;
+IdModule  = SPARKFUN-CAPACITORS_CAP-PTH-SMALL-KIT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3BEE4;
+Reference = C4;
+ValeurCmp = 22PF-PTH-2.54MM-200V-5%;
+IdModule  = SPARKFUN-CAPACITORS_CAP-PTH-2.54;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3BFAC;
+Reference = C5;
+ValeurCmp = 22PF-PTH-2.54MM-200V-5%;
+IdModule  = SPARKFUN-CAPACITORS_CAP-PTH-2.54;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3C074;
+Reference = C6;
+ValeurCmp = 0.1UF-KIT-EZ-50V-20%;
+IdModule  = SPARKFUN-CAPACITORS_CAP-PTH-SMALL-KIT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3C13C;
+Reference = CAN_CONT7;
+ValeurCmp = MCP2515P;
+IdModule  = CAN_DIL18;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3C268;
+Reference = D1;
+ValeurCmp = PESD1CAN;
+IdModule  = SPARKFUN-DISCRETESEMI_SOT23-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3C330;
+Reference = GND/TRIM/5V7;
+ValeurCmp = CONN_03;
+IdModule  = SPARKFUN-CONNECTORS_1X03;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3C3F8;
+Reference = J1;
+ValeurCmp = CONN_04SCREW;
+IdModule  = SPARKFUN-CONNECTORS_SCREWTERMINAL-3.5MM-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3C4C0;
+Reference = JUMP7;
+ValeurCmp = CONN_02;
+IdModule  = SPARKFUN-CONNECTORS_1X02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3C588;
+Reference = R1;
+ValeurCmp = 100OHM-HORIZ_KIT-1/4W-1%;
+IdModule  = SPARKFUN-RESISTORS_AXIAL-0.3EZ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3C650;
+Reference = R2;
+ValeurCmp = 100OHM-HORIZ_KIT-1/4W-1%;
+IdModule  = SPARKFUN-RESISTORS_AXIAL-0.3EZ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3C718;
+Reference = R3;
+ValeurCmp = RESISTORAXIAL-0.3;
+IdModule  = SPARKFUN_AXIAL-0.3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3C7E0;
+Reference = R4;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3C970;
+Reference = U$1;
+ValeurCmp = RPI-ZERO;
+IdModule  = RPI-ZERO_RASP_PI_ZERO_BOARD_FULL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3CA38;
+Reference = U1;
+ValeurCmp = MCP2562DIL08_2;
+IdModule  = CAN_DIL08;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3CB00;
+Reference = VDD_DEC7;
+ValeurCmp = 0.1UF-KIT-EZ-50V-20%;
+IdModule  = SPARKFUN-CAPACITORS_CAP-PTH-SMALL-KIT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3CBC8;
+Reference = VIO_DEC7;
+ValeurCmp = 0.1UF-KIT-EZ-50V-20%;
+IdModule  = SPARKFUN-CAPACITORS_CAP-PTH-SMALL-KIT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3CC90;
+Reference = VSS_DEC7;
+ValeurCmp = 0.1UF-KIT-EZ-50V-20%;
+IdModule  = SPARKFUN-CAPACITORS_CAP-PTH-SMALL-KIT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5CB3CD58;
+Reference = Y1;
+ValeurCmp = CRYSTAL-16MHZPTH-HC49US;
+IdModule  = SPARKFUN-CLOCKS_HC49US;
+EndCmp
+
+EndListe

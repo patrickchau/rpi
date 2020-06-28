@@ -1,0 +1,45 @@
+#********** START OF run-me-first-from-eagle-sch.ulp ULP Version 4.4.5 14-04-2019 :16:02:32 LOG **********#
+#OldRef				SheetNumber	NewRef
+12V/ON				1	12V/ON7
+CAN_CONT				1	CAN_CONT7
+GND/TRIM/5V				1	GND/TRIM/5V7
+JUMP				1	JUMP7
+VDD_DEC				1	VDD_DEC7
+VIO_DEC				1	VIO_DEC7
+VSS_DEC				1	VSS_DEC7
+#********** END OF run-me-first-from-eagle-sch.ulp ULP Version 4.4.5 14-04-2019 :16:02:32 LOG **********#
+
+#********** START OF fix_via_hack.ulp ULP Version 4.8.1 14-04-2019 :16:02:48 LOG **********#
+#********** END OF fix_via_hack.ulp ULP Version 4.8.1 14-04-2019 :16:02:48 LOG **********#
+
+#********** START OF eagle6xx-sch-to-kicad-sch.ulp 2.2 14-04-2019 :16:03:00 LOG **********#
+Symbol Name Conflict: Symbol=RESISTOR from internal SCH lib=SparkFun with symbol=RESISTOR from LIB=SparkFun-Resistors
+Package Name Conflict: Package=AXIAL-0.3 from internal SCH lib=SparkFun with package=AXIAL-0.3 from LIB=SparkFun-Resistors
+Package Name Conflict: Package=R2010 from internal SCH lib=SparkFun with package=R2010 from LIB=adafruit
+Package Name Conflict: Package=R2512 from internal SCH lib=SparkFun with package=R2512 from LIB=adafruit
+Package Name Conflict: Package=0603 from internal SCH lib=SparkFun-Capacitors with package=0603 from LIB=SparkFun-Resistors
+Package Name Conflict: Package=0603 from internal SCH lib=SparkFun-Capacitors with package=0603 from LIB=SparkFun-Resistors
+Symbol Name Conflict: Symbol=RESISTOR from internal SCH lib=SparkFun-Resistors with symbol=RESISTOR from LIB=SparkFun
+Package Name Conflict: Package=0603 from internal SCH lib=SparkFun-Resistors with package=0603 from LIB=SparkFun-Capacitors
+Package Name Conflict: Package=0603 from internal SCH lib=SparkFun-Resistors with package=0603 from LIB=SparkFun-Capacitors
+Package Name Conflict: Package=AXIAL-0.3 from internal SCH lib=SparkFun-Resistors with package=AXIAL-0.3 from LIB=SparkFun
+Package Name Conflict: Package=R2010 from internal SCH lib=adafruit with package=R2010 from LIB=SparkFun
+Package Name Conflict: Package=R2512 from internal SCH lib=adafruit with package=R2512 from LIB=SparkFun
+#********** END OF eagle6xx-sch-to-kicad-sch.ulp 2.2 14-04-2019 :16:03:00 LOG **********#
+
+#********** START OF exp-lbrs.ulp 6.81 14-04-2019 :16:03:05 LOG **********#
+ERROR: package name:SparkFun-Capacitors_0603  Has Bad/illegal charter in it's package Alisa name!
+
+   Package Alaise  Name:-0603-25V-(+80/-20%)
+   Error Postion & Char:          (        )
+   Bad charter(s) have been replaced with  '_'  This MAY FIX OR, CAUSE MORE ERROR'S! Plese fix the Alias!
+
+    Conversion completed with no messages
+#********** END OF exp-lbrs.ulp 6.81 14-04-2019 :16:03:05 LOG **********#
+
+
+#********** START OF eagle-lbr2kicad-1.0.ulp 3.1 14-04-2019 :16:04:22 LOG **********#
+Missing Prefix Part =''				RPI-ZERO_RASP_PI_ZERO_BOARD_FULL					RPI_CAN		M
+    Conversion completed with no Messages
+#********** END OF eagle-lbr2kicad-1.0.ulp 3.1 14-04-2019 :16:04:22 LOG **********#
+
